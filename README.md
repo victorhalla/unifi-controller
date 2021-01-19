@@ -98,3 +98,8 @@ keytool -importkeystore -deststorepass aircontrolenterprise -destkeypass aircont
 docker restart unifi-controller
 ```
 
+# License
+GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+
+# Author
+Victor Halla - victorhalla@hotmail.com
