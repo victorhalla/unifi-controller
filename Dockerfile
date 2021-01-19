@@ -11,7 +11,7 @@ LABEL maintainer="aptalca"
 ARG UNIFI_BRANCH="unifi-5.6.36"
 ARG DEBIAN_FRONTEND="noninteractive"
 
-COPY unifi_sysvinit_all.deb /tmp/
+COPY bin/unifi_sysvinit_all.deb /tmp/
 
 RUN \
  echo "**** add mongo repository ****" && \
