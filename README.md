@@ -90,7 +90,7 @@ mv -f /etc/unifi/data/keystore /etc/unifi/data/keystore.backup
 
 ## Load it into the java keystore that UBNT understands
 ```
-keytool -importkeystore -deststorepass aircontrolenterprise -destkeypass aircontrolenterprise -destkeystore /etc/unifi/data/keystore -srckeystore /etc/letsencrypt/archive/plutao.theparker.viottohalla.com.br/cert.p12 -srcstoretype PKCS12 -srcstorepass temppass -alias unifi -noprompt
+keytool -importkeystore -deststorepass aircontrolenterprise -destkeypass aircontrolenterprise -destkeystore /etc/unifi/data/keystore -srckeystore /etc/letsencrypt/archive/[YOUR SERVER]]/cert.p12 -srcstoretype PKCS12 -srcstorepass temppass -alias unifi -noprompt
 ```
 
 ## Clean up and use new cert
